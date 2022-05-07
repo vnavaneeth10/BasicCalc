@@ -3,6 +3,8 @@ body {
     padding: 20px 0;
     margin: 0;
     text-align: center;
+    background-image: url(yellow.jpg);
+    position: relative;
 }
 
 span {
@@ -12,10 +14,16 @@ span {
 
 button {
     margin: 20px 0;
-    background: white;
-    color: black;
+   background: green;
+    color: white;
     border: 1px solid black;
     font-weight: bold;
     cursor: pointer;
     padding: 5px 8px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.sum{
+    background-color: red;
 }
